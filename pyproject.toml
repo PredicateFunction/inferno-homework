@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cs-homework"
+version = "0.1.0"
+description = "A program that analyses a sentence that contains several words without punctuation"
+authors = ["Joshua Smith <inf3rnofficial@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.13"
+requests = "^2.32"
+numpy = "^2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0"
+black = "^24.0"
+mypy = "^1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
