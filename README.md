@@ -36,5 +36,5 @@ I kind of NAILED IT
 
 run the following commands in the project directory
 
-.venv/Scripts/activate
+.venv/Scripts/activate 
 python main.py
